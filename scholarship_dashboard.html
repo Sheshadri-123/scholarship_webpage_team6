@@ -22,4 +22,14 @@
       <button class="toggle-btn" onclick="toggleDarkMode()">Toggle Mode</button>
     </div>
 
+    <div class="search-bar">
+      <input type="text" id="searchInput" placeholder="Search scholarships..." oninput="filterScholarships()" />
+      <select id="categoryFilter" onchange="filterScholarships()">
+        <option value="">All Categories</option>
+        <option value="Undergraduate">Undergraduate</option>
+        <option value="Postgraduate">Postgraduate</option>
+        <option value="Research">Research</option>
+      </select>
+    </div>
+
 
