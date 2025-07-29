@@ -19,4 +19,15 @@ const scholarships = [
     description: "Awarded to top-performing students.",
     category: "Undergraduate"
   },
+ {
+    title: "Leadership Fellowship",
+    description: "For students showing exceptional leadership.",
+    category: "Postgraduate"
+  },
+  {
+    title: "Innovation Grant",
+    description: "Support for innovative student projects.",
+    category: "Research"
+  }
+];
 
