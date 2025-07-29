@@ -42,3 +42,18 @@ body {
 .sidebar ul li:hover {
   text-decoration: underline;
 }
+/* Main content */
+.main {
+  flex: 1;
+  padding: 30px;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header h1 {
+  font-size: 28px;
+}
