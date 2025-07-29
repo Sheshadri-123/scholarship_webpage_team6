@@ -54,4 +54,13 @@ function filterScholarships() {
       (s.title.toLowerCase().includes(search) || s.description.toLowerCase().includes(search)) &&
       (category === "" || s.category === category)
     );
+  });
+  renderScholarships(filtered);
+}
 
+function toggleDarkMode() {
+  document.body.classList.toggle("dark-mode");
+}
+
+// Initial render
+renderScholarships(scholarships);
