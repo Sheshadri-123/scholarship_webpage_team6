@@ -34,4 +34,11 @@ body {
 .sidebar ul {
   list-style: none;
 }
+.sidebar ul li {
+  margin: 15px 0;
+  cursor: pointer;
+}
 
+.sidebar ul li:hover {
+  text-decoration: underline;
+}
