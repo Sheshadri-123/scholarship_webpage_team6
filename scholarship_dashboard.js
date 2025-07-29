@@ -30,4 +30,20 @@ const scholarships = [
     category: "Research"
   }
 ];
+function renderScholarships(list) {
+  const container = document.getElementById("scholarshipList");
+  container.innerHTML = "";
+  list.forEach(s => {
+    const card = document.createElement("div");
+    card.className = "scholarship-card";
+    card.innerHTML = `
+      <h4>${s.title}</h4>
+      <p>${s.description}</p>
+      <p><strong>Category:</strong> ${s.category}</p>
+    `;
+    container.appendChild(card);
+  });
+document.getElementById("totalCount").textContent = list.length;
+}
+
 
