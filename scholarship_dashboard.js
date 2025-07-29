@@ -9,4 +9,14 @@ const scholarships = [
     description: "Support for women pursuing STEM degrees.",
     category: "Postgraduate"
   },
+ {
+    title: "Research Excellence Award",
+    description: "Funding for outstanding research proposals.",
+    category: "Research"
+  },
+  {
+    title: "Merit-Based Scholarship",
+    description: "Awarded to top-performing students.",
+    category: "Undergraduate"
+  },
 
