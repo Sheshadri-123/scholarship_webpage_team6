@@ -46,4 +46,12 @@ function renderScholarships(list) {
 document.getElementById("totalCount").textContent = list.length;
 }
 
+function filterScholarships() {
+  const search = document.getElementById("searchInput").value.toLowerCase();
+  const category = document.getElementById("categoryFilter").value;
+  const filtered = scholarships.filter(s => {
+    return (
+      (s.title.toLowerCase().includes(search) || s.description.toLowerCase().includes(search)) &&
+      (category === "" || s.category === category)
+    );
 
