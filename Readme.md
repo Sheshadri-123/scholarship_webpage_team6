@@ -1,2 +1,2 @@
 _ project is on topic scholarship webpage
-<h1>Priject is on topic scholarship webpage</h1>
+<h1>Project is on topic scholarship webpage</h1>
